@@ -11,19 +11,19 @@ directory and run `npm install` to fetch all dependencies. Then, run `gulp` to
 start watching and compiling. The default gulp task will update documentation as
 necessary, as well as minify images and scripts, and auto-prefix CSS rulesets.
 
-## [Style Guide (SC5)](https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/documentation/styleguide/)
+## [Style Guide (SC5)](http://www.shouldiuseagenderdropdown.com/documentation/styleguide/)
 
 Documents the assorted designs, components, styles and markup patterns defined
 by the site. You'll probably want to start here. Generated automatically using
 the default `gulp` task using comments in the Sass files.
 
-## [SassDoc](https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/documentation/sassdoc/)
+## [SassDoc](http://www.shouldiuseagenderdropdown.com/documentation/sassdoc/)
 
 Documents Sass breakpoints, functions and mixins, which are not included in a
 style guide. Generated automatically using the default `gulp` task using
 comments in the Sass files.
 
-## [JSDoc](https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/documentation/jsdoc/index.html)
+## [JSDoc](http://www.shouldiuseagenderdropdown.com/documentation/jsdoc/index.html)
 
 Documents custom JavaScript on the site.
 

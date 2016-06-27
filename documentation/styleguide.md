@@ -25,9 +25,9 @@ folders and partials.
 installation instructions, and lists coding standards.
 - Documentation of the theme's **Sass breakpoints, functions and
 mixins**:
-[SassDoc](https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/documentation/sassdoc/)
+[SassDoc](http://www.shouldiuseagenderdropdown.com/documentation/sassdoc/)
 - Documentation of the theme's **JavaScript**:
-[TRF JSDoc](https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/documentation/jsdoc/index.html)
+[JSDoc](http://www.shouldiuseagenderdropdown.com/documentation/jsdoc/index.html)
 
 ## Resources
 

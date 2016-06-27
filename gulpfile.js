@@ -186,7 +186,7 @@ gulp.task('styleguide:generate', function() {
   return gulp.src([sassPath + '/**/*.scss'])
 
   .pipe(styleguide.generate({
-      title: 'Should I use a gender dropdown? style guide',
+      title: '"Should I use a gender dropdown?" style guide',
       server: false,
       rootPath: styleguidePath,
       appRoot: themePath + styleguidePath,
