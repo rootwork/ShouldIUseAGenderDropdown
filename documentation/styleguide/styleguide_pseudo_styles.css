@@ -1,0 +1,22 @@
+a.pseudo-class-active,
+a.pseudo-class-hover {
+  outline-width: 0;
+}
+
+.visuallyhidden.focusable.pseudo-class-active,
+.visuallyhidden.focusable.pseudo-class-focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.pane > section.pseudo-class-target {
+  display: block;
+}
+
+.pane > section.pseudo-class-target ~ .intro {
+  display: none;
+}

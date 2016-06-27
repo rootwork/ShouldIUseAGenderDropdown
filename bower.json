@@ -1,0 +1,22 @@
+{
+  "name": "genderdropdown",
+  "homepage": "https://github.com/rootwork/ShouldIUseAGenderDropdown",
+  "description": "Should I use a gender dropdown?",
+  "main": "index.js",
+  "authors": [
+    "Ivan Boothe <ivan@rootwork.org>"
+  ],
+  "license": "GPL-3.0",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,18 @@
+.pane {
+  > section {
+    display: none;
+    white-space: pre-line;
+
+    &:target {
+      display: block;
+
+      ~ .intro {
+        display: none;
+      }
+    }
+  }
+
+  > .intro {
+      display: block;
+  }
+}

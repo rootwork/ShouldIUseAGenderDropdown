@@ -1,0 +1,45 @@
+<h1 class="sg" name="overview">Overview</h1>
+<p class="sg">This page documents the assorted designs, components, styles and markup patterns
+defined by the site. You can view the hierarchy of components using the tabbed
+menu above, or search the full text of style definitions.</p>
+<p class="sg">The content below is generated from code comments in the project&#x2019;s Sass
+files and processed using
+<a href="https://www.npmjs.com/package/sc5-styleguide" class="sg">SC5 Style Guide Generator</a>, which
+runs on <a href="https://github.com/kss-node/kss-node" class="sg">kss-node</a>, which itself uses
+<a href="https://github.com/kneath/kss" class="sg">Knyle Style Sheets (KSS)</a>. The styleguide
+sections are defined in <code>sass/main.scss</code>.</p>
+<p class="sg">Note that <a href="http://warpspire.com/kss/syntax/" class="sg">per the KSS documentation</a>, &quot;not
+every CSS rule should be documented.&quot; Only rules that describe visual UI
+elements are documented in the styleguide. Therefore, there is not (and does not
+need to be) a 1:1 correspondence between the Styleguide sections and the Sass
+folders and partials.</p>
+<h2 class="sg" name="also-see">Also see</h2>
+<ul>
+<li class="sg">The sites&apos;s
+<strong><a href="https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/README.frontend.md" class="sg">frontend README file</a></strong>
+(markdown) outlines the general approach to the site&apos;s design, gives
+installation instructions, and lists coding standards.</li>
+<li class="sg">Documentation of the theme&apos;s <strong>Sass breakpoints, functions and
+mixins</strong>:
+<a href="https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/documentation/sassdoc/" class="sg">SassDoc</a></li>
+<li class="sg">Documentation of the theme&apos;s <strong>JavaScript</strong>:
+<a href="https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/documentation/jsdoc/index.html" class="sg">TRF JSDoc</a></li>
+</ul>
+<h2 class="sg" name="resources">Resources</h2>
+<ul>
+<li class="sg"><a href="http://warpspire.com/kss/syntax/" class="sg">KSS documentation syntax</a>.</li>
+<li class="sg"><a href="https://www.npmjs.com/package/sc5-styleguide#documenting-syntax" class="sg">SC5-specific additional syntax for complex markup</a>,
+including creating &quot;ignore&quot; blocks (useful for SassDoc) and including wrappers
+around necessary components.</li>
+<li class="sg"><a href="https://github.com/kss-node/kss-node/wiki/Using-custom-templates" class="sg">kss-node documentation on the style guide&apos;s template</a>
+&#x2014; our template (the source of this information) is located at
+<code>documentation/styleguide.md</code>, and default SC5 styles are used to format the
+documentation.</li>
+</ul>
+<h2 class="sg" name="updating-this-documentation">Updating this documentation</h2>
+<p class="sg">This style guide is pulled directly from Sass files using KSS syntax. We use
+<a href="http://gulpjs.com/" class="sg">Gulp.js</a> to update this documentation automatically when
+theme files are updated &#x2014; documentation generation is part of the default
+<code>gulp</code> task. See
+<a href="https://github.com/rootwork/ShouldIUseAGenderDropdown/blob/gh-pages/gulpfile.js" class="sg">this theme&apos;s gulpfile</a>
+for more.</p>

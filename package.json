@@ -1,0 +1,40 @@
+{
+  "name": "genderdropdown",
+  "homepage": "https://github.com/rootwork/ShouldIUseAGenderDropdown",
+  "description": "Should I use a gender dropdown?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "authors": [
+    "Ivan Boothe <ivan@rootwork.org>"
+  ],
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-jsdoc3": "^0.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rm": "^1.0.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sass-bulk-import": "^1.0.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "kss": "^2.0.2",
+    "node-sass": "^3.4.2",
+    "sass-module-importer": "^1.2.1",
+    "sassdoc": "^2.1.9",
+    "sc5-styleguide": "^1.0.0"
+  }
+}

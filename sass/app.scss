@@ -1,0 +1,88 @@
+@charset 'utf-8';
+
+//
+// Imports
+//
+
+// Third-party
+
+  // Via Bower + sass-module-importer
+  // @import "normalize-scss";
+
+  // Via Bower alone
+  // @import "./bower_components/normalize-scss/sass/normalize";
+
+  // Via vendor folder
+  @import "global/vendor/normalize/import-now";
+  @import "global/vendor/html5boilerplate";
+
+// Utils
+// @import "global/variables/breakpoints";
+// @import "global/variables/colors";
+// @import "global/variables/fonts";
+// @import "global/variables/patterns";
+// @import "global/variables/icons";
+// @import "global/variables/sizes";
+// @import "global/functions";
+// @import "global/mixins";
+// @import "global/animations";
+
+// Base
+// @import "base/html";
+// @import "base/forms/*";
+// @import "base/typography/*";
+
+// Layout
+@import "layout/*";
+
+// Components
+// @import "components/*";
+
+// Modules
+// @import "modules/*";
+
+//
+// SC5 Styleguide section definitions
+//
+// Note that per the KSS documentation (which SC5 Styleguide is based on), "not
+// every CSS rule should be documented." Only rules that describe visual UI
+// elements are documented in the styleguide. Therefore, there is not (and does
+// not need to be) a 1:1 correspondence between the Styleguide sections and the
+// Sass folders and partials.
+//
+
+// Colors, backgrounds, fonts
+//
+// This section describes base colors, patterns and typography. Everything in
+// this section is simply a variable, used elsewhere in Sass files for styles.
+//
+// Styleguide 1.0
+
+// Typography
+//
+// Unlike the "Colors, background, fonts" section, which holds only variables,
+// this section defines specific styles used in the site.
+//
+// <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:500,300,700,900" media="all" />
+//
+// Styleguide 2.0
+
+// Buttons, forms, links
+//
+// Form elements, buttons (submit and other) as well as generic hyperlinks.
+//
+// Styleguide 3.0
+
+// Components
+//
+// Building blocks (elements in BEM; molecules in atomic design) used in
+// modules.
+//
+// Styleguide 4.0
+
+// Modules
+//
+// Re-useable design items (blocks in BEM; organisms in atomic design) used
+// throughout the site. Unrelated to Drupal modules.
+//
+// Styleguide 5.0
